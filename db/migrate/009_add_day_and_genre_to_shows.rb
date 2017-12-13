@@ -4,4 +4,3 @@ class AddDayAndGenreToShows < ActiveRecord::Migration
     add_column :shwos, :genre, :string
   end
 end
-  
