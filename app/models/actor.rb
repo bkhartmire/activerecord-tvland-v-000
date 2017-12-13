@@ -10,6 +10,6 @@ class Actor < ActiveRecord::Base
     self.characters.collect do |character|
       "#{character.name} - #{character.show}"
     end
-      
+
   end
 end
