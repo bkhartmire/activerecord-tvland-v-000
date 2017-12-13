@@ -3,7 +3,6 @@ class CreateCharacters < ActiveRecord::Migration
     create_table :characters do |character|
       character.string :name
       character.integer :show_id
-      character.integer :actor_id
     end
   end
 end
